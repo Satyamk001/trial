@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    color: white;
+    
+}
+#top-container{
+    background-color: #ff4c68;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 2%;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    /* position: static; */
+    font-size: 1.2em;
+   align-items: center;
+   
+   position: relative;
+   
+}
+
+
+.nav-links { 
+    /* width: 35%; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 28%;
+    margin-right: 9%;
+}
+.nav-links li{
+    
+    list-style: none;
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+}
+.nav-links a:hover{
+   color: pink;
+}
+.link{
+    display: flex;
+   margin-right: 15%;
+   font-size: 1.2rem;
+   justify-content: center;
+   align-items: center;
+ 
+}
+.logo{
+    width: 11%;
+   margin-left: 5%;
+}
+.heading{
+    width: 50%;
+    margin: 8% auto ;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* margin-bottom: 20%; */
+}
+.heading h1{
+    font-size: 2.3rem;
+    font-weight: bolder;
+}
+.heading h3{
+    font-size: 1.2rem;
+    color: rgb(236, 229, 229);
+}
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+.images img{
+    width: 20%;
+    border-radius: 100%;
+}
+.practice{
+    font-size: 3rem;
+    margin: auto;
+    text-align: center;
+    color: grey;
+}
+.buttons{
+    /* background-color:#ff4c68 ; */
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    justify-content: space-evenly;
+}
+.buttons button{
+    height: 150px;
+    width: 150px;
+    font-size: 5rem;
+    color: white;
+    border: 2px solid pink;
+    background-color: #ff4c68;
+    border-radius: 20px;
+    
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 20px;
+    width: 10%;
+    margin: 5% auto 5%;
+}
+#last-container{
+    background-color: #ff4c68;
+    text-align: center;
+    justify-content: center;
+    /* padding: 0 3%; */
+    font-size: 2.2rem;
+}
+.join-img img{
+    width: 5%;
+    padding:0 5% 0;    
+}
+.copyright{
+    /* padding: 6% 0 0; */
+    font-size: 1rem;
+    color: rgb(207, 200, 200);
+}
+.clicked{
+    background-color: pink;
+    font-size: 5.5rem;
+}
